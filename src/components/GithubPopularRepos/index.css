@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-top: 16px;
+  margin-bottom: 116px;
+}
+.heading {
+  font-size: 38px;
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 42px;
+  }
+}
+@media (min-width: 992px) {
+  .heading {
+    font-size: 56px;
+  }
+}
+.languages-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+.repositories-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  width: 256px;
+}
+.failure-text {
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: 600;
+  color: #1e293b;
+}

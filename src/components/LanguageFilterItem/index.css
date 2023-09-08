@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-item {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+}
+.button {
+  color: #1e293b;
+  font-family: 'Roboto';
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+}
+.is-active {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 20px;
+  padding: 2px 16px 2px 16px;
+}
+@media (min-width: 992px) {
+  .button {
+    font-size: 20px;
+  }
+}
